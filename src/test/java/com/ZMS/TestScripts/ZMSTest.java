@@ -39,7 +39,7 @@ public class ZMSTest extends BaseClass {
 		AddAnimalPage aap=new AddAnimalPage(driver);
 		aap.getAnimalName().sendKeys(Animalname);
 		Thread.sleep(2000);
-		driver.findElement(By.id("image")).sendKeys("C:\\Users\\SOUMYASANTA SAHOO\\Desktop\\Standing_white_tiger.jpg");
+		driver.findElement(By.id("image")).sendKeys("C:\\Users\\saisa\\Downloads\\Standing_white_tiger.jpg");
 		aap.getCageNo().sendKeys(Cagenumber);
 		aap.getFeedno().sendKeys(feednumber);
 		aap.getBreed().sendKeys(Breed);

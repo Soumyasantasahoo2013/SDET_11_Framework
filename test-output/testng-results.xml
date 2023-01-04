@@ -1,223 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="4" ignored="0" total="5" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[This testcase is about Adding Animal]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-01-03T12:46:56 IST" name="Default suite" finished-at="2023-01-03T12:46:57 IST" duration-ms="404">
+  <suite started-at="2023-01-03T15:46:49 IST" name="Suite" finished-at="2023-01-03T15:47:19 IST" duration-ms="30165">
     <groups>
     </groups>
-    <test started-at="2023-01-03T12:46:56 IST" name="Default test" finished-at="2023-01-03T12:46:57 IST" duration-ms="404">
-      <class name="com.testng.test.RetryAnalyserTest">
-        <test-method retried="true" signature="retryTest()[pri:0, instance:com.testng.test.RetryAnalyserTest@e056f20]" started-at="2023-01-03T12:46:57 IST" name="retryTest" finished-at="2023-01-03T12:46:57 IST" duration-ms="18" status="SKIP">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-at com.testng.test.RetryAnalyserTest.retryTest(RetryAnalyserTest.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+    <test started-at="2023-01-03T15:46:49 IST" name="Test" finished-at="2023-01-03T15:47:19 IST" duration-ms="30165">
+      <class name="com.ZMS.TestScripts.ZMSTest">
+        <test-method is-config="true" signature="launchlogin()[pri:0, instance:com.ZMS.TestScripts.ZMSTest@71a8adcf]" started-at="2023-01-03T15:46:49 IST" name="launchlogin" finished-at="2023-01-03T15:46:53 IST" duration-ms="3431" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryTest -->
-        <test-method retried="true" signature="retryTest()[pri:0, instance:com.testng.test.RetryAnalyserTest@e056f20]" started-at="2023-01-03T12:46:57 IST" name="retryTest" finished-at="2023-01-03T12:46:57 IST" duration-ms="2" status="SKIP">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-at com.testng.test.RetryAnalyserTest.retryTest(RetryAnalyserTest.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+        </test-method> <!-- launchlogin -->
+        <test-method is-config="true" signature="setLogin()[pri:0, instance:com.ZMS.TestScripts.ZMSTest@71a8adcf]" started-at="2023-01-03T15:46:53 IST" name="setLogin" finished-at="2023-01-03T15:46:54 IST" duration-ms="1400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryTest -->
-        <test-method retried="true" signature="retryTest()[pri:0, instance:com.testng.test.RetryAnalyserTest@e056f20]" started-at="2023-01-03T12:46:57 IST" name="retryTest" finished-at="2023-01-03T12:46:57 IST" duration-ms="2" status="SKIP">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-at com.testng.test.RetryAnalyserTest.retryTest(RetryAnalyserTest.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+        </test-method> <!-- setLogin -->
+        <test-method signature="addanimal()[pri:0, instance:com.ZMS.TestScripts.ZMSTest@71a8adcf]" started-at="2023-01-03T15:46:54 IST" name="addanimal" finished-at="2023-01-03T15:47:08 IST" duration-ms="13839" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This testcase is about Adding Animal]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addanimal -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.ZMS.TestScripts.ZMSTest@71a8adcf]" started-at="2023-01-03T15:47:08 IST" name="logOut" finished-at="2023-01-03T15:47:08 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryTest -->
-        <test-method retried="true" signature="retryTest()[pri:0, instance:com.testng.test.RetryAnalyserTest@e056f20]" started-at="2023-01-03T12:46:57 IST" name="retryTest" finished-at="2023-01-03T12:46:57 IST" duration-ms="2" status="SKIP">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-at com.testng.test.RetryAnalyserTest.retryTest(RetryAnalyserTest.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="setLogin()[pri:0, instance:com.ZMS.TestScripts.ZMSTest@71a8adcf]" started-at="2023-01-03T15:47:08 IST" name="setLogin" finished-at="2023-01-03T15:47:09 IST" duration-ms="881" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryTest -->
-        <test-method signature="retryTest()[pri:0, instance:com.testng.test.RetryAnalyserTest@e056f20]" started-at="2023-01-03T12:46:57 IST" name="retryTest" finished-at="2023-01-03T12:46:57 IST" duration-ms="3" status="FAIL">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-at com.testng.test.RetryAnalyserTest.retryTest(RetryAnalyserTest.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+        </test-method> <!-- setLogin -->
+        <test-method signature="manageticket()[pri:0, instance:com.ZMS.TestScripts.ZMSTest@71a8adcf]" started-at="2023-01-03T15:47:09 IST" name="manageticket" finished-at="2023-01-03T15:47:19 IST" duration-ms="10047" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryTest -->
-      </class> <!-- com.testng.test.RetryAnalyserTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- manageticket -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.ZMS.TestScripts.ZMSTest@71a8adcf]" started-at="2023-01-03T15:47:19 IST" name="logOut" finished-at="2023-01-03T15:47:19 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ZMS.TestScripts.ZMSTest@71a8adcf]" started-at="2023-01-03T15:47:19 IST" name="closeBrowser" finished-at="2023-01-03T15:47:19 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ZMS.TestScripts.ZMSTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

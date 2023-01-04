@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.test.RetryAnalyserTest">
+      <class name="com.ZMS.TestScripts.ZMSTest">
         <methods>
-          <include name="retryTest"/>
+          <include name="setLogin"/>
+          <include name="launchlogin"/>
+          <include name="closeBrowser"/>
+          <include name="logOut"/>
+          <include name="addanimal"/>
         </methods>
-      </class> <!-- com.testng.test.RetryAnalyserTest -->
+      </class> <!-- com.ZMS.TestScripts.ZMSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
